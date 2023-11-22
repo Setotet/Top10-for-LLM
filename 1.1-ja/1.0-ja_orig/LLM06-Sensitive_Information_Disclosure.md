@@ -27,11 +27,3 @@ LLMと利用者アプリケーションの相互インタラクションは、�
 明らかに正当なユーザーAが、悪意のない方法でLLMアプリケーションと対話する際、LLMを介して他のユーザーのデータが暴露されます。
 ユーザー A は、巧妙に作成されたプロンプトのセットを使って、LLM からの入力フィルターとサニタイズをバイパスし、アプリケーションの他のユーザーに関する個人情報 (PII) を暴露させます。
 ユーザー自身またはLLMアプリケーションの過失により、PIIのような個人情報が訓練データを介してモデルに漏洩されます。この場合、上記のシナリオ1または2のリスクと発生確率が高まる可能性があります。
-
-## Reference Links
-
-+ AI data leak crisis: New tool prevents company secrets from being fed to ChatGPT: https://www.foxbusiness.com/politics/ai-data-leak-crisis-prevent-company-secrets-chatgpt
-+ Lessons learned from ChatGPT’s Samsung leak: https://cybernews.com/security/chatgpt-samsung-leak-explained-lessons/
-+ Cohere- Terms Of Use: https://cohere.com/terms-of-use
-+ AI Village- Threat Modeling Example: https://aivillage.org/large%20language%20models/threat-modeling-llm/
-+ OWASP AI Security and Privacy Guide: https://owasp.org/www-project-ai-security-and-privacy-guide/

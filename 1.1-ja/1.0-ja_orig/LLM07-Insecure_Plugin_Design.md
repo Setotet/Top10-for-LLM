@@ -31,15 +31,3 @@ LLMプラグインは LLM の拡張機能です。プラグインを有効にす
 + LLMにおいて、プラグインは、埋め込みデータをベクターストアから取得する際、バリデーションなしに接続文字列として設定パラメータを受け取ります。これにより、攻撃者は名前やホストパラメータを変更することで、他のベクターストアにアクセスし、本来アクセスすべきでないエンベッディングを取得することができます。
 + プラグインはSQLのWHERE句を高度なフィルタとして受け入れ、フィルタリングSQLに付加します。これにより攻撃者はSQLインジェクション攻撃を仕掛けることができます。
 + 攻撃者は、間接的なプロンプトインジェクションを使用して、入力検証を行わずアクセス制御が弱い安全でないコード管理プラグインを悪用し、リポジトリの所有権を移譲し、ユーザーをリポジトリからロックアウトします。
-
-## Reference Links
-
-+ OpenAI ChatGPT Plugins: https://platform.openai.com/docs/plugins/introduction
-+ OpenAI ChatGPT Plugins - Plugin Flow: https://platform.openai.com/docs/plugins/introduction/plugin-flow
-+ OpenAI ChatGPT Plugins - Authentication: https://platform.openai.com/docs/plugins/authentication/service-level
-+ OpenAI Semantic Search Plugin Sample: https://github.com/openai/chatgpt-retrieval-plugin
-+ Plugin Vulnerabilities: Visit a Website and Have Your Source Code Stolen: https://embracethered.com/blog/posts/2023/chatgpt-plugin-vulns-chat-with-code/
-+ ChatGPT Plugin Exploit Explained: From Prompt Injection to Accessing Private Data: https://embracethered.com/blog/posts/2023/chatgpt-cross-plugin-request-forgery-and-prompt-injection./
-+ OWASP ASVS - 5 Validation, Sanitization and Encoding: https://owasp-aasvs4.readthedocs.io/en/latest/V5.html#validation-sanitization-and-encoding
-+ OWASP ASVS 4.1 General Access Control Design: https://owasp-aasvs4.readthedocs.io/en/latest/V4.1.html#general-access-control-design
-+ OWASP Top 10 API Security Risks – 2023: https://owasp.org/API-Security/editions/2023/en/0x11-t10/

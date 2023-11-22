@@ -35,16 +35,3 @@ LLM のサプライチェーンは脆弱である可能性があり、トレー�
 + 攻撃者は、モデルをファインチューニングする際に、バックドアを作成する目的で、公開されているデータセットを汚染します。バックドアは、様々な市場において特定の企業を優遇します。
 + サプライヤ（アウトソーシング開発会社、ホスティング会社など）の侵害された従業員が、データ、モデル、またはコードを流出させ、Intellectual Properties (IP) を盗みます。
 + LLM事業者が利用規約とプライバシーポリシーを変更し、モデルトレーニングにアプリケーションデータを使用しないようにするためには、明示的なオプトアウトを求めるようにします。
-
-## Reference Links　参考リンク
-
-+ ChatGPT Data Breach Confirmed as Security Firm Warns of Vulnerable Component Exploitation: https://www.securityweek.com/chatgpt-data-breach-confirmed-as-security-firm-warns-of-vulnerable-component-exploitation/
-+ Open AI’s Plugin review process: https://platform.openai.com/docs/plugins/review
-+ Compromised PyTorch-nightly dependency chain: https://pytorch.org/blog/compromised-nightly-dependency/
-+ PoisonGPT: How we hid a lobotomized LLM on Hugging Face to spread fake news: https://blog.mithrilsecurity.io/poisongpt-how-we-hid-a-lobotomized-llm-on-hugging-face-to-spread-fake-news/
-+ Army looking at the possibility of ‘AI BOMs: https://defensescoop.com/2023/05/25/army-looking-at-the-possibility-of-ai-boms-bill-of-materials/
-+ Failure Modes in Machine Learning: https://learn.microsoft.com/en-us/security/engineering/failure-modes-in-machine-learning
-+ ML Supply Chain Compromise: https://atlas.mitre.org/techniques/AML.T0010/
-+ Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples: https://arxiv.org/pdf/1605.07277.pdf
-+ BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain: https://arxiv.org/abs/1708.06733
-+ VirusTotal Poisoning: https://atlas.mitre.org/studies/AML.CS0002/
