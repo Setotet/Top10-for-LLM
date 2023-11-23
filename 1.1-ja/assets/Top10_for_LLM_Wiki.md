@@ -11,28 +11,29 @@ OWASP Top 10 for Large Language Model Applications 全体の情報は、
 
 | Commit diff | Commit message |
 | ----------- | --------------------- |
+| [R51122_224150](https://github.com/Setotet/Top10-for-LLM/commit/95588cd42e3b6a926eb754aad5e4ea532339f9c7) | Fix section title and increase precision to .4f |
 | [R51122_171146](https://github.com/Setotet/Top10-for-LLM/commit/4d6866e1e44e4994d581848ca814459895bf9858) | Apply 1_1_vulns/_template.md |
 | [R51121_215619](https://github.com/Setotet/Top10-for-LLM/tree/1.1-ja/1.1-ja/1.0-ja_orig) | Prepare for 1.1-ja |
 
 
 | Chapter title | Links to chapter diff | BLEU score |
 | ------------- | --------------------- | ---------- |
-| PromptInjection | [LLM-01](URL) | 0.96 |
-| InsecureOutputHandling | [LLM-02](URL) | 0.95 |
-| TrainingDataPoisoning | [LLM-03](URL) | 0.96 |
-| ModelDoS | [LLM-04](URL) | 0.94 |
-| SupplyChainVulnerabilities | [LLM-05](URL) | 0.95 |
-| SensitiveInformationDisclosure | [LLM-06]() | 0.95 |
-| InsecurePluginDesign | [LLM-07](URL) | 0.95 |
-| ExcessiveAgency | [LLM-08](URL) | 0.97 |
-| Overreliance | [LLM-09](URL) | 0.95 |
-| ModelTheft | [LLM-10](URL) | 0.96 |
+| PromptInjection | [LLM-01](URL) | 0.9636 |
+| InsecureOutputHandling | [LLM-02](URL) | 0.9510 |
+| TrainingDataPoisoning | [LLM-03](URL) | 0.9644 |
+| ModelDoS | [LLM-04](URL) | 0.9446 |
+| SupplyChainVulnerabilities | [LLM-05](URL) | 0.9509 |
+| SensitiveInformationDisclosure | [LLM-06]() | 0.9524 |
+| InsecurePluginDesign | [LLM-07](URL) | 0.9543 |
+| ExcessiveAgency | [LLM-08](URL) | 0.9658 |
+| Overreliance | [LLM-09](URL) | 0.9481 |
+| ModelTheft | [LLM-10](URL) | 0.9554 |
 
 ### BLEU scoreについて
 
 BLEU scoreは自然言語処理で広く用いられている2つの文章の類似度を示す 0.0~1.0 (inclusive) の小数で、1は完全に一致する、0は完全に異なることを意味します。日本語1.1版の作成は日本語1.0版をベースとし、英語の1.0版から1.1版への変更箇所（以下を参照）に沿って、翻訳・更新していきますから、出発点ではベースと同じ、すなわち、BLEU scoreは1.0で、変更が進むにつれて減少していきますから、日本語1.1版の翻訳・更新の進捗を一つの数値で表すと解釈することができます。
 
-しかし、0になることはありません。0.5以下になることもないでしょう。いくつになったら1.1版への更新が終了するかということを一意に定めることはできませんが、おおまかな目安として、英語の1.0版から1.1版への更新では以下に示すように、章ごとに見ると0.55から0.89の間にあり、平均は0.73です。英語版のBLEU scoreが小さい（変更が多い）章は日本語版でも小さくなる（翻訳・更新が多くなる）傾向を示すであろうと思われます。
+しかし、0になることはありません。0.5以下になることもないでしょう。いくつになったら1.1版への更新が終了するかということを一意に定めることはできませんが、おおまかな目安として、英語の1.0版から1.1版への更新では以下に示すように、章ごとに見ると0.54から0.90の間にあり、平均は0.7315です。英語版のBLEU scoreが小さい（変更が多い）章は日本語版でも小さくなる（翻訳・更新が多くなる）傾向を示すであろうと思われます。
 
 ### BLEU scoreの変化
 
@@ -67,16 +68,16 @@ BLEU scoreは自然言語処理で広く用いられている2つの文章の類
 
 | Chapter Title | Links to chapter diff | BLEU score |
 | ------------- | --------------------- | ---------- |
-| PromptInjection | [LLM-01](https://github.com/talesh/llm_top_ten_diffs/commit/f1ffe5cf96833fb15a585277996fd2cc05401396) | 0.72 |
-| InsecureOutputHandling | [LLM-02](https://github.com/talesh/llm_top_ten_diffs/commit/015539a321537a77cff3d5210b01b9d23ccba1d0) | 0.55 |
-| TrainingDataPoisoning | [LLM-03](https://github.com/talesh/llm_top_ten_diffs/commit/c1fa2664bf3dc078c458861fd45ac37d30953d00) | 0.56 |
-| ModelDoS | [LLM-04](https://github.com/talesh/llm_top_ten_diffs/commit/3d67a52b5d6962fb12ab9fbb4714ebdd2914f3b4) | 0.86 |
-| SupplyChainVulnerabilities | [LLM-05](https://github.com/talesh/llm_top_ten_diffs/commit/ff8f66336df56d27371c31da49c329f76937de13) | 0.66 |
-| SensitiveInformationDisclosure | [LLM-06](https://github.com/talesh/llm_top_ten_diffs/commit/96826c14f0fcf9ac0b8d85229349377eae9e27ff) | 0.73 |
-| InsecurePluginDesign | [LLM-07](https://github.com/talesh/llm_top_ten_diffs/commit/3742a4a4a246a3fec61dd110ec9ba921ff968d4f) | 0.75 |
-| ExcessiveAgency | [LLM-08](https://github.com/talesh/llm_top_ten_diffs/commit/9d0d60ecdf7901546b6c39e04618dcba22fafda9) | 0.89 |
-| Overreliance | [LLM-09](https://github.com/talesh/llm_top_ten_diffs/commit/3800d56c741d0c0df0759be36dbdfe50288e0b90) | 0.75 |
-| ModelTheft | [LLM-10](https://github.com/talesh/llm_top_ten_diffs/commit/6a2f97f85ccc20059f32e72535a2ee3bf6e94454) | 0.83 |
+| PromptInjection | [LLM-01](https://github.com/talesh/llm_top_ten_diffs/commit/f1ffe5cf96833fb15a585277996fd2cc05401396) | 0.7166 |
+| InsecureOutputHandling | [LLM-02](https://github.com/talesh/llm_top_ten_diffs/commit/015539a321537a77cff3d5210b01b9d23ccba1d0) | 0.5495 |
+| TrainingDataPoisoning | [LLM-03](https://github.com/talesh/llm_top_ten_diffs/commit/c1fa2664bf3dc078c458861fd45ac37d30953d00) | 0.5637 |
+| ModelDoS | [LLM-04](https://github.com/talesh/llm_top_ten_diffs/commit/3d67a52b5d6962fb12ab9fbb4714ebdd2914f3b4) | 0.8589 |
+| SupplyChainVulnerabilities | [LLM-05](https://github.com/talesh/llm_top_ten_diffs/commit/ff8f66336df56d27371c31da49c329f76937de13) | 0.6617 |
+| SensitiveInformationDisclosure | [LLM-06](https://github.com/talesh/llm_top_ten_diffs/commit/96826c14f0fcf9ac0b8d85229349377eae9e27ff) | 0.7325 |
+| InsecurePluginDesign | [LLM-07](https://github.com/talesh/llm_top_ten_diffs/commit/3742a4a4a246a3fec61dd110ec9ba921ff968d4f) | 0.7530 |
+| ExcessiveAgency | [LLM-08](https://github.com/talesh/llm_top_ten_diffs/commit/9d0d60ecdf7901546b6c39e04618dcba22fafda9) | 0.8931 |
+| Overreliance | [LLM-09](https://github.com/talesh/llm_top_ten_diffs/commit/3800d56c741d0c0df0759be36dbdfe50288e0b90) | 0.7547 |
+| ModelTheft | [LLM-10](https://github.com/talesh/llm_top_ten_diffs/commit/6a2f97f85ccc20059f32e72535a2ee3bf6e94454) | 0.8309 |
 
 ### Reference Links
 
