@@ -9,27 +9,27 @@ OWASP Top 10 for Large Language Model Applications 全体の情報は、
 
 ### 進捗状況 - コミット毎の変更箇所
 
+**翻訳・更新が行われると、新しいコミットが上に追加されていきます。**
 | Changes in the commit | Commit message |
 | ----------- | --------------------- |
-| [R51122_224500](https://github.com/Setotet/Top10-for-LLM/commit/95588cd42e3b6a926eb754aad5e4ea532339f9c7?diff-split) | Fix section title and increase precision to .4f |
-| [R51122_171146](https://github.com/Setotet/Top10-for-LLM/commit/4d6866e1e44e4994d581848ca814459895bf9858?diff-split) | Apply 1_1_vulns/_template.md |
-| [R51121_215619](https://github.com/Setotet/Top10-for-LLM/tree/1.1-ja/1.1-ja/1.0-ja_orig) | Prepare for 1.1-ja |
+| [R51124_004302](https://github.com/Setotet/Top10-for-LLM/commit/3b24256306b2f0079202850dad403fd32e2e91db?diff-split) | Prepare for 1.1-ja translation |
+| [R51124_003440](https://github.com/Setotet/Top10-for-LLM/tree/1.1-ja/1.1-ja/1.0-ja_orig) | Base 1.0-ja |
 
-### 進捗状況 - 現在までの全ての変更箇所と現在のBLEU score
+### 進捗状況 - 全ての変更箇所と現在のBLEU score
 
 **LLM-xx リンクをクッリクすると、github.comは全てのファイルを拡張表示します。注目のmdファイルまでスクロール・ダウンするか、または、左端の vマーク をクリックし、注目外のファイルを非表示にしてください。**
 | Chapter title | All changes made so far | BLEU score |
 | ------------- | --------------------- | ---------- |
-| PromptInjection | [LLM-01](https://github.com/Setotet/Top10-for-LLM/compare/9dfd8992912115f1939db5e2ec02345eaf1c79ce...1.1-ja#LLM10-Model_Theft.md?diff=split) | 0.9636 |
-| InsecureOutputHandling | [LLM-02](https://github.com/Setotet/Top10-for-LLM/compare/9dfd8992912115f1939db5e2ec02345eaf1c79ce...1.1-ja#LLM10-Model_Theft.md?diff=split) | 0.9510 |
-| TrainingDataPoisoning | [LLM-03](https://github.com/Setotet/Top10-for-LLM/compare/9dfd8992912115f1939db5e2ec02345eaf1c79ce...1.1-ja#LLM10-Model_Theft.md?diff=split) | 0.9644 |
-| ModelDoS | [LLM-04](https://github.com/Setotet/Top10-for-LLM/compare/9dfd8992912115f1939db5e2ec02345eaf1c79ce...1.1-ja#LLM10-Model_Theft.md?diff=split) | 0.9446 |
-| SupplyChainVulnerabilities | [LLM-05](https://github.com/Setotet/Top10-for-LLM/compare/9dfd8992912115f1939db5e2ec02345eaf1c79ce...1.1-ja#LLM10-Model_Theft.md?diff=split) | 0.9509 |
-| SensitiveInformationDisclosure | [LLM-06](https://github.com/Setotet/Top10-for-LLM/compare/9dfd8992912115f1939db5e2ec02345eaf1c79ce...1.1-ja#LLM10-Model_Theft.md?diff=split) | 0.9524 |
-| InsecurePluginDesign | [LLM-07](https://github.com/Setotet/Top10-for-LLM/compare/9dfd8992912115f1939db5e2ec02345eaf1c79ce...1.1-ja#LLM10-Model_Theft.md?diff=split) | 0.9543 |
-| ExcessiveAgency | [LLM-08](https://github.com/Setotet/Top10-for-LLM/compare/9dfd8992912115f1939db5e2ec02345eaf1c79ce...1.1-ja#LLM10-Model_Theft.md?diff=split) | 0.9658 |
-| Overreliance | [LLM-09](https://github.com/Setotet/Top10-for-LLM/compare/9dfd8992912115f1939db5e2ec02345eaf1c79ce...1.1-ja#LLM10-Model_Theft.md?diff=split) | 0.9481 |
-| ModelTheft | [LLM-10](https://github.com/Setotet/Top10-for-LLM/compare/9dfd8992912115f1939db5e2ec02345eaf1c79ce...1.1-ja#LLM10-Model_Theft.md?diff=split) | 0.9554 |
+| PromptInjection | [LLM-01](https://github.com/Setotet/Top10-for-LLM/compare/42e86edd93c3ffd7578dcfae3243b8f478272cc5...1.1-ja?diff=split) | 0.9636 |
+| InsecureOutputHandling | [LLM-02](https://github.com/Setotet/Top10-for-LLM/compare/42e86edd93c3ffd7578dcfae3243b8f478272cc5...1.1-ja?diff=split) | 0.9510 |
+| TrainingDataPoisoning | [LLM-03](https://github.com/Setotet/Top10-for-LLM/compare/42e86edd93c3ffd7578dcfae3243b8f478272cc5...1.1-ja?diff=split) | 0.9644 |
+| ModelDoS | [LLM-04](https://github.com/Setotet/Top10-for-LLM/compare/42e86edd93c3ffd7578dcfae3243b8f478272cc5...1.1-ja?diff=split) | 0.9446 |
+| SupplyChainVulnerabilities | [LLM-05](https://github.com/Setotet/Top10-for-LLM/compare/42e86edd93c3ffd7578dcfae3243b8f478272cc5...1.1-ja?diff=split) | 0.9509 |
+| SensitiveInformationDisclosure | [LLM-06](https://github.com/Setotet/Top10-for-LLM/compare/42e86edd93c3ffd7578dcfae3243b8f478272cc5...1.1-ja?diff=split) | 0.9524 |
+| InsecurePluginDesign | [LLM-07](https://github.com/Setotet/Top10-for-LLM/compare/42e86edd93c3ffd7578dcfae3243b8f478272cc5...1.1-ja?diff=split) | 0.9543 |
+| ExcessiveAgency | [LLM-08](https://github.com/Setotet/Top10-for-LLM/compare/42e86edd93c3ffd7578dcfae3243b8f478272cc5...1.1-ja?diff=split) | 0.9658 |
+| Overreliance | [LLM-09](https://github.com/Setotet/Top10-for-LLM/compare/42e86edd93c3ffd7578dcfae3243b8f478272cc5...1.1-ja?diff=split) | 0.9481 |
+| ModelTheft | [LLM-10](https://github.com/Setotet/Top10-for-LLM/compare/42e86edd93c3ffd7578dcfae3243b8f478272cc5...1.1-ja?diff=split) | 0.9554 |
 
 ### BLEU scoreについて
 
