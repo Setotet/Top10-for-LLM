@@ -47,7 +47,6 @@ BLEU scoreは自然言語処理で広く用いられている2つの文章の類
 
 - [x] 1.1-jaレポジトリ作成
 - [x] Top10_for_LLM-Wiki.md 作成
-- [ ] 1.1-ja翻訳グロッサリー作成
 - [ ] LLM01-Prompt_Injections 翻訳・更新
 - [ ] LLM02-Insecure_Output_Handling 翻訳・更新
 - [ ] LLM03-Training_Data_Poisoning 翻訳・更新
@@ -59,6 +58,8 @@ BLEU scoreは自然言語処理で広く用いられている2つの文章の類
 - [ ] LLM09-Overreliance 翻訳・更新
 - [ ] LLM10-Model_Theft 翻訳・更新
 - [ ] Full whitepaper 1.1-ja DRAFT PDF 作成
+- [ ] LLM00-Inroduction 作成
+- [ ] 1.1-ja翻訳グロッサリー作成
 - [ ] owasp-ja/Top10-for-LLMへPR
 
 ### 英語版の1.0から1.1への更新
