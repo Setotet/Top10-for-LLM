@@ -57,7 +57,7 @@ BLEU scoreは自然言語処理で広く用いられている2つの文章の類
 - [ ] LLM08-Excessive_Agency 翻訳・更新
 - [ ] LLM09-Overreliance 翻訳・更新
 - [ ] LLM10-Model_Theft 翻訳・更新
-- [ ] Full whitepaper 1.1-ja DRAFT PDF 作成
+- [x] Full whitepaper 1.1-ja DRAFT PDF 作成
 - [ ] LLM00-Inroduction 作成
 - [ ] 1.1-ja翻訳グロッサリー作成
 - [ ] owasp-ja/Top10-for-LLMへPR
