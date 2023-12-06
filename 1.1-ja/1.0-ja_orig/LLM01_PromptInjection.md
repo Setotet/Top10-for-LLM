@@ -35,3 +35,14 @@
 + ユーザは LLM を使用して、以前のユーザの指示を無視する間接的な プロンプトインジェクションを含むウェブページを要約します。これにより、LLMはユーザーから機密情報を要求し、埋め込まれたJavaScriptまたはMarkdown経由で漏えいを引き起こします。
 + 悪意のあるユーザーが履歴書をアップロードし、プロンプトを注入します。バックエンドユーザはLLMを使って履歴書を要約し、その人が良い候補者かどうかを尋ねます。プロンプトインジェクションにより、実際の履歴書の内容にもかかわらず、LLMは「はい」と答えてしまいます。
 + あるユーザーがeコマースサイトにリンクされたプラグインを有効にします。訪問したウェブサイトに埋め込まれた不正な命令がこのプラグインを悪用し、不正購入につながります。
+
+## Reference Links 参考リンク
++ ChatGPT Plugin Vulnerabilities - Chat with Code: https://embracethered.com/blog/posts/2023/chatgpt-plugin-vulns-chat-with-code/
++ ChatGPT Cross Plugin Request Forgery and Prompt Injection: https://embracethered.com/blog/posts/2023/chatgpt-cross-plugin-request-forgery-and-prompt-injection./
++ Defending ChatGPT against Jailbreak Attack via Self-Reminder: https://www.researchsquare.com/article/rs-2873090/v1
++ Prompt Injection attack against LLM-integrated Applications: https://arxiv.org/abs/2306.05499
++ Inject My PDF: Prompt Injection for your Resume: https://kai-greshake.de/posts/inject-my-pdf/
++ ChatML for OpenAI API Calls: https://github.com/openai/openai-python/blob/main/chatml.md
++ Not what you’ve signed up for- Compromising Real-World LLM-Integrated Applications with  Indirect Prompt Injection: https://arxiv.org/pdf/2302.12173.pdf
++ Threat Modeling LLM Applications: http://aivillage.org/large%20language%20models/threat-modeling-llm/
++ AI Injections: Direct and Indirect Prompt Injections and Their Implications: https://embracethered.com/blog/posts/2023/ai-injections-direct-and-indirect-prompt-injection-basics/

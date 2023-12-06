@@ -32,3 +32,12 @@ LLMが生成したソース・コードは、気づかないうちにセキュ�
 + ある報道機関ではニュース記事の生成にAIモデルを多用していました。悪意のある行為者は、この「過度の信頼」を悪用し、AIに誤解を招く情報を与え、偽情報の拡散を引き起こしました。AIが意図せずコンテンツを盗用したため、著作権問題と組織の信頼低下につながりました。
 + ソフトウェア開発チームではCodexのようなAIシステムを利用し、コーディングプロセスを迅速化していました。安全でないデフォルト設定や、安全なコーディングプラクティスと矛盾する推奨といったAIの提案を「過度に信頼」することで、アプリケーションにセキュリティ脆弱性がもたらされました。
 + あるソフトウェア開発会社が、開発者を支援するためにLLMを使用していました。LLMは存在しないコードライブラリやパッケージを提案し、開発者はAIを信頼するあまり、会社のソフトウェアに悪意のあるパッケージを無意識のうちに組み込んでしまいました。これは、特にサードパーティのコードやライブラリが関係する場合、AIの提案をクロスチェックすることの重要性を浮き彫りにします。
+
+## Reference Links 参考リンク
+
++ Understanding LLM Hallucinations: https://towardsdatascience.com/llm-hallucinations-ec831dcd7786
++ How Should Companies Communicate the Risks of Large Language Models to Users?: https://techpolicy.press/how-should-companies-communicate-the-risks-of-large-language-models-to-users/
++ A news site used AI to write articles. It was a journalistic disaster: https://www.washingtonpost.com/media/2023/01/17/cnet-ai-articles-journalism-corrections/
++ AI Hallucinations: Package Risk: https://vulcan.io/blog/ai-hallucinations-package-risk
++ How to Reduce the Hallucinations from Large Language Models: https://thenewstack.io/how-to-reduce-the-hallucinations-from-large-language-models/
++ Practical Steps to Reduce Hallucination: https://newsletter.victordibia.com/p/practical-steps-to-reduce-hallucination

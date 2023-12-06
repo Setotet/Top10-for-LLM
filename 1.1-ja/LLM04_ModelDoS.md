@@ -1,4 +1,4 @@
-## LLM04: Model Denial of Service モデルのDoS
+## LLM04: モデルのDoS
 
 ### Description
 
@@ -31,3 +31,11 @@
 1. 攻撃者は一連の連続入力をLLMに送信し、各入力はコンテキストウィンドウの限界にちょうど達するように設計する。これらの入力を繰り返し送信することで、攻撃者は利用可能なコンテキストウィンドウの容量を使い果たすことを狙っています。LLMがコンテキストウィンドウ内で各入力を最大限処理しようとすると、システムリソースが逼迫し、パフォーマンスの低下や完全なサービス拒否につながる可能性があります
 1. 攻撃者はLLMの再帰的メカニズムを利用して、コンテキスト拡張を繰り返しトリガーさせる。LLMの再帰的な動作を悪用した入力を作成することで、攻撃者はモデルにコンテキスト・ウィンドウの拡張と処理を繰り返し行わせ、計算リソースを大量に消費させます。この攻撃はシステムに負担をかけ、DoS状態を引き起こし、LLMを応答不能にしたりクラッシュさせたりする可能性があります
 1. 攻撃者はLLMに大量の可変長入力を殺到させ、コンテキストウィンドウの限界に近づくか到達するように注意深く細工する。攻撃者は可変長入力を処理する際の非効率性を狙って、様々な長さの入力を使いLLMを圧倒させます。このような入力の洪水は、LLMのリソースに過度の負荷をかけ、潜在的なパフォーマンス低下を引き起こし、システムが正当なリクエストに応答する能力を妨げます
+
+### Reference Links
+
+1. [LangChain max_iterations](https://twitter.com/hwchase17/status/1608467493877579777): **hwchase17 on Twitter**
+2. [Sponge Examples: Energy-Latency Attacks on Neural Networks](https://arxiv.org/abs/2006.03463): **Arxiv White Paper**
+3. [OWASP DOS Attack](https://owasp.org/www-community/attacks/Denial_of_Service): **OWASP**
+4. [Learning From Machines: Know Thy Context](https://lukebechtel.com/blog/lfm-know-thy-context): **Luke Bechtel**
+5. [Sourcegraph Security Incident on API Limits Manipulation and DoS Attack ](https://about.sourcegraph.com/blog/security-update-august-2023): **Sourcegraph**

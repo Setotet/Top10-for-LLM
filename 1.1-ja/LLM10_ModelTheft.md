@@ -1,4 +1,4 @@
-## LLM10: Model Theft モデルの盗難
+## LLM10: モデルの盗難
 
 ### Description
 
@@ -43,3 +43,13 @@ LLMの盗難は、言語モデルがますます強力になり普及するに�
 1. サプライチェーンのどこかでセキュリティ管理の不備が発生すると、独自のモデル情報のデータ漏えいにつながります。
 1. 悪意のある攻撃者は、LLMの入力フィルタリング技術やプリアンブルにある指示をバイパスしてサイドチャネル攻撃を行い、自分の制御下にある遠隔制御リソースにモデル情報を取り込みます。
  
+### Reference Links
+
+1. [Meta’s powerful AI language model has leaked online](https://www.theverge.com/2023/3/8/23629362/meta-ai-language-model-llama-leak-online-misuse): **The Verge**
+2. [Runaway LLaMA | How Meta's LLaMA NLP model leaked](https://www.deeplearning.ai/the-batch/how-metas-llama-nlp-model-leaked/): **Deep Learning Blog**
+3. [AML.TA0000 ML Model Access](https://atlas.mitre.org/tactics/AML.TA0000): **MITRE ATLAS**
+4. [I Know What You See](https://arxiv.org/pdf/1803.05847.pdf): **Arxiv White Paper**
+5. [D-DAE: Defense-Penetrating Model Extraction Attacks](https://www.computer.org/csdl/proceedings-article/sp/2023/933600a432/1He7YbsiH4c): **Computer.org**
+6. [A Comprehensive Defense Framework Against Model Extraction Attacks](https://ieeexplore.ieee.org/document/10080996): **IEEE**
+7. [Alpaca: A Strong, Replicable Instruction-Following Model](https://crfm.stanford.edu/2023/03/13/alpaca.html): **Stanford Center on Research for Foundation Models (CRFM)**
+8. [How Watermarking Can Help Mitigate The Potential Risks Of LLMs?](https://www.kdnuggets.com/2023/03/watermarking-help-mitigate-potential-risks-llms.html): **KD Nuggets**

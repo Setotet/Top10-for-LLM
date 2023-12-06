@@ -27,3 +27,9 @@
 + LLMのリソース使用率を継続的に監視し、DoS攻撃を示す異常なスパイクやパターンを特定する
 + 過負荷やリソースの枯渇を防ぐため、LLM のコンテキストウィンドウに基づく厳密な入力制限を設定する
 + LLMの潜在的なDoS脆弱性について開発者の認識を促し、安全なLLM実装のためのガイドラインを提供する。
+
+## Reference Links 参考リンク
++ LangChain max_iterations: https://twitter.com/hwchase17/status/1608467493877579777
++ Sponge Examples: Energy-Latency Attacks on Neural Networks: https://arxiv.org/abs/2006.03463
++ OWASP DOS Attack: https://owasp.org/www-community/attacks/Denial_of_Service
++ Learning From Machines: Know Thy Context: https://lukebechtel.com/blog/lfm-know-thy-context
